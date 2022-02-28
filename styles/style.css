@@ -135,7 +135,9 @@ body {
       border-radius: 5px;
       margin-top: 20px;
       cursor: pointer;
-
+      display: block;
+      width: 170px;
+      text-align: center;
 }
 
 
