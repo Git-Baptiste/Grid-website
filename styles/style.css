@@ -100,15 +100,48 @@ body {
 
 
 
-
+/* --------------------- MENU --------------------- */
 
 
 
 
 .presentation {
       grid-area: 2 / 1 / 3 / 2;
-      background: lightgreen;
+      background: rgb(144, 175, 216);
+      padding: 40px;
 }
+
+.presentation img {
+      width: 80px;
+}
+
+.presentation h1 {
+      font-size: 80px;
+      font-family: Playfair Display, 'Times New Roman', Times, serif;
+      font-weight: 700;
+}
+
+.presentation p {
+      font-size: 20px;
+      margin: 20px 0;
+      line-height: 1.3;
+}
+
+.presentation a {
+      padding: 15px;
+      text-decoration: none;
+      color: #000;
+      border: 1px solid #333;
+      border-radius: 5px;
+      margin-top: 20px;
+      cursor: pointer;
+
+}
+
+
+
+
+
 
 .slider {
       grid-area: 2 / 2 / 3 / -1;
